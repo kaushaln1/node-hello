@@ -1,5 +1,4 @@
-
-   
+  
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: kaushaln1/node_hello:latest
         ports:
         - containerPort: 3000
         
